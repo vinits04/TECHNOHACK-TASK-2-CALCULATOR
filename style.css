@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/bkg.jpg);
+}
+#header{
+    text-align: center;
+    color: #f4eded;
+    font-size: 18px;
+    
+}
+
+.calculator{
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #82878f;
+    padding: 20px;
+    border-radius: 14px;
+    background: rgb(26, 26, 26);
+    box-shadow: 0px 3px 15px rgba(108, 110, 114, 0.5);
+    width: 106%;
+    height: 80%;
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 22px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 34px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 65px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 35%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 29px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+button:hover{
+    color: #edebeb;
+    background: #fb7c14;
+}
+
+.equalBtn{
+    background-color: #0afb96d8;
+}
+
+.operator{
+    color: #00f92e;
+}
+footer {
+    margin-top: 13px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 22px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
